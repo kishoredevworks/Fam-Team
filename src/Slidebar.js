@@ -5,7 +5,7 @@ const BrandSlider = () => {
   const [slidePosition, setSlidePosition] = useState(0);
   const [isHovered, setIsHovered] = useState(false);
   const [brands] = useState([
-    { name: "Brand 1", img: "images/Amazon." },
+    { name: "Brand 1", img: "images/Amazon.png" },
     { name: "Brand 2", img: "images/Myntra.png" },
     { name: "Brand 3", img: "images/Bookmyshow.png" },
     { name: "Brand 4", img: "images/Slack.png" },
