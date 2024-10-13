@@ -1,3 +1,6 @@
+import { Link } from 'react-router-dom';
+
+
 const Footer = () => {
   return (
     <footer className="relative bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 py-10">
@@ -16,13 +19,13 @@ const Footer = () => {
           {/* Navigation Links */}
           <ul className="flex space-x-6 text-white text-lg font-semibold">
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-            <li><a href="/" className="hover:text-pink-300 transition">Home</a></li>
+            <li><Link to="/" className="hover:text-pink-300 transition">Home</Link></li>
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-            <li><a href="/about" className="hover:text-pink-300 transition">About</a></li>
+            <li><Link to="/about" className="hover:text-pink-300 transition">About</Link></li>
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-            <li><a href="/projects" className="hover:text-pink-300 transition">Projects</a></li>
+            <li><Link to="/projects" className="hover:text-pink-300 transition">Projects</Link></li>
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-            <li><a href="/contact" className="hover:text-pink-300 transition">Contact</a></li>
+            <li><Link to="/contact" className="hover:text-pink-300 transition">Contact</Link></li>
           </ul>
 
         </div>

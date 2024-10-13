@@ -17,10 +17,15 @@ function App() {
       <Testimonials />
       <TestimonialForm />
       <Routes>
-        <Route path="/projects" element={<PremiumProjectsComponent />} />
-        <Route path="/contact" element={<PremiumContactForm />} />
-        <Route path="/about" element={<Home />} />
-      </Routes>
+  <Route path="/" element={<Home />} />
+  <Route path="/projects" element={<PremiumProjectsComponent />} />
+  <Route path="/contact" element={<PremiumContactForm />} />
+  <Route path="/testimonials" element={<Testimonials />} />
+  <Route path="/testimonial-form" element={<TestimonialForm />} />
+  {/* Catch-all route for undefined paths */}
+  <Route path="*" element={<Home />} />
+</Routes>
+
       <Footers />
     </div>
   );

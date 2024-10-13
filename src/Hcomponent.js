@@ -43,7 +43,7 @@ const Home = () => {
         </ul>
 
         <div className="relative">
-          <div className={`transition-all duration-500 ease-in-out overflow-hidden ${showMore ? 'max-h-full' : 'max-h-32'}`}>
+          < div className={`transition-all duration-500 ease-in-out overflow-hidden ${showMore ? 'max-h-full' : 'max-h-32'}`}>
             <h1 className="text-3xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 to-pink-400">
               Our Vision
             </h1>
@@ -51,14 +51,14 @@ const Home = () => {
               At FAM-TEAM, we envision a world where technology seamlessly enhances human experiences. Our mission is to be at the forefront of this digital revolution, creating intuitive and powerful solutions that empower businesses and individuals alike. We believe in the transformative power of technology when wielded with creativity and purpose. Our team is dedicated to turning this vision into reality, one project at a time, always pushing the boundaries of what's possible in the digital landscape.
             </p>
           </div>
-          {!showMore && <div className="absolute bottom-0 left-0 w-full h-16 bg-gradient-to-t from-indigo-900 to-transparent"></div>}
+          { !showMore && <div className="absolute bottom-0 left-0 w-full h-16 bg-gradient-to-t from-indigo-900 to-transparent"></div>}
         </div>
 
         <button
           onClick={toggleReadMore}
           className="mt-4 bg-pink-500 hover:bg-pink-600 text-white font-bold py-2 px-4 rounded-full transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg"
         >
-          {showMore ? 'Read Less' : 'Read More'}
+          { showMore ? 'Read Less' : 'Read More'}
         </button>
       </div>
     </div>
