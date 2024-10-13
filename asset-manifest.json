@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Fam-Team/static/css/main.9b38018e.css",
-    "main.js": "/Fam-Team/static/js/main.a93bbda9.js",
+    "main.js": "/Fam-Team/static/js/main.a0c6a882.js",
     "index.html": "/Fam-Team/index.html",
     "main.9b38018e.css.map": "/Fam-Team/static/css/main.9b38018e.css.map",
-    "main.a93bbda9.js.map": "/Fam-Team/static/js/main.a93bbda9.js.map"
+    "main.a0c6a882.js.map": "/Fam-Team/static/js/main.a0c6a882.js.map"
   },
   "entrypoints": [
     "static/css/main.9b38018e.css",
-    "static/js/main.a93bbda9.js"
+    "static/js/main.a0c6a882.js"
   ]
 }
